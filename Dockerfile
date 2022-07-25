@@ -5,5 +5,5 @@ WORKDIR /root/webapp
 ADD ./webapp /root/webapp/
 RUN pip3 install --no-cache-dir -q -r /root/webapp/requirements.txt
 VOLUME ["/root/.config/"]
-ENV EMAIL=chasing66@live.com
+ENV EMAIL=progaming1945@gmail.com
 ENTRYPOINT ["sh", "-c", "/root/webapp/entrypoint.sh"]
